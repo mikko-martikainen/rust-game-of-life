@@ -1,8 +1,8 @@
 [package]
-name = "game-of-life"
-version = "1.0.0"
-edition = "2021"
+name = "rust-game-of-life"
+version = "0.1.0"
+edition = "2024"
 
 [dependencies]
-rand = "0.8"
-ruscii = "0.4.0"
+crossterm = "0.29.0"
+rand = "0.10.0"
